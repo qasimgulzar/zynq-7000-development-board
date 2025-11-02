@@ -1,0 +1,62 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "1c49c5e1-9590-4bd4-a79a-f3dad2a671fd")
+	(paper "A4")
+	(title_block
+		(title "Zynq 7000 Development Board")
+		(date "2025-10-25")
+		(rev "0.0.0")
+		(company "Primzel Technologies")
+	)
+	(lib_symbols)
+	(sheet
+		(at 22.86 20.32)
+		(size 13.462 12.446)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "dc03cd73-5d5b-49c2-993f-95ae93d95f93")
+		(property "Sheetname" "Power Rails"
+			(at 22.86 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power_rails.kicad_sch"
+			(at 22.86 33.3506 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "zynq-7000-development-board"
+				(path "/1c49c5e1-9590-4bd4-a79a-f3dad2a671fd"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
